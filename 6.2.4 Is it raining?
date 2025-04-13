@@ -1,0 +1,17 @@
+function main() {
+    console.log("Do I need a raincoat?");
+
+    //create a variable that stores whether or not it is raining
+    //use the Randomizer to assign a random Boolean value
+    let raining = Randomizer.nextBoolean();
+    //print the value of your variable to the console
+    console.log("Is it raining? " + raining);
+    //use an if/else statement to print out if you need a raincoat
+    if (raining == true) {
+        console.log("Yes");
+    } else {
+        console.log("No");
+    }
+}
+
+main();
